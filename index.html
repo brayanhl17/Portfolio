@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brayan HL</title>
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/brayan-hl.png" alt="Brayan HL" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Brayan HL">Brayan</h1>
+          <h1 class="name" title="Brayan HL">Hernández López</h1>
+          <p class="title">Desarrollador de software</p>
+        </div>
+        
+        <button class="info_more-btn" alt="Ver más" data-sidebar-btn>
+          <span>Ver info</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+       
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Disponibilidad</p>
+              <a class="contact-link">Inmediata</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="language-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Idiomas</p>
+              <a class="contact-link">EN-B1  ES-Nativo</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Ubicación</p>
+              <address>Pachuca, Hidalgo, MX</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="mailto:brayanhdzlpz17@gmail.com" target="_blank" class="social-link">
+              <ion-icon name="mail"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/brayanhl17" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/brayan-hernández-lópez" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+        
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>Perfil</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Experiencia</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Proyectos</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Habilidades</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contacto</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="perfil">
+        <header>
+          <h2 class="h2 article-title">Sobre mí</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Desarrollador de software con más de dos años navegando principalmente en el ecosistema .NET, me especializo en crear experiencias web que realmente resuelven problemas. Mi curiosidad me lleva constantemente a explorar nuevas tecnologías con la mentalidad de que cada desafío es una oportunidad para crecer.
+      
+          </p>
+          <p>
+            Entiendo la importancia de traducir requisitos técnicos en soluciones que cualquier usuario pueda entender y utilizar. Me fascina resolver problemas complejos y disfruto mucho optimizando soluciones adaptándome a las tecnologías disponibles.
+          </p>
+        </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">Lo que hago</h3>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/backend.png" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desarrollo backend</h4>
+                <p class="service-item-text">
+                  Construcción robusta y escalable de la lógica del servidor y APIs de alto rendimiento.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/frontend.png" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desarrollo frontend</h4>
+                <p class="service-item-text">
+                  Creación de interfaces modernas e interactivas con experiencia de usuario excepcional.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/base-de-datos.png" alt="database icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Administración de bases de datos</h4>
+                <p class="service-item-text">
+                  Gestión y optimización de bases de datos para máximo rendimiento y seguridad.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/sistemas.png" alt="systems icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Análisis de sistemas</h4>
+                <p class="service-item-text">
+                  Evaluación técnica integral y soluciones estratégicas para sistemas complejos.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="resume" data-page="experiencia">
+        <header>
+          <h2 class="h2 article-title">Experiencia</h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experiencia profesional</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Desarrollador Full Stack</h4>
+              <span>2024 — Presente</span>
+              <p class="timeline-text">
+                Desarrollé módulos de sitios web utilizando .NET Core con arquitecturas MVC o N-Capas y Blazor para el frontend, atendí y resolví incidencias técnicas de usuarios creando y optimizando consultas SQL.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Desarrollador .NET</h4>
+              <span>2023 — 2024</span>
+              <p class="timeline-text">
+                Construí APIs RESTful seguras mediante ASP.NET Web API, diseñé e implementé aplicaciones web responsivas desde cero, combinando .NET (C#) en el backend con Angular para el frontend, mejorando la experiencia del usuario.
+              </p>
+            </li>
+
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Educación académica</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Ingeniería en sistemas computacionales</h4>
+              <span>2018 — 2023</span>
+              <p class="timeline-text">
+                Instituto Tecnológico de Pachuca
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Certificación AZ-900</h4>
+              <span>2022</span>
+              <p class="timeline-text">
+                Azure Fundamentals - Microsoft</p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Técnico en programación</h4>
+              <span>2015 — 2018</span>
+              <p class="timeline-text">
+                CBTis no. 59
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">Habilidades principales</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Backend con .NET</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Frontend con JS y Angular</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Bases de datos SQL</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+      <article class="blog" data-page="proyectos">
+        <header>
+          <h2 class="h2 article-title">Proyectos</h2>
+        </header>
+
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="https://github.com/brayanhl17/Coworking" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="assets/images/coworking.png" alt="Coworking" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Stack</p>
+                    <span class="dot"></span>
+                    <p class="blog-category">.NET, SQL Server, Blazor</p>
+                  </div>
+                  <h3 class="h3 blog-item-title">Sistema de Coworking</h3>
+                  <p class="blog-text">
+                   Sistema de gestión de coworking, que permite reservar, administrar y mostrar espacios de trabajo, realizado con .NET 9 y MudBlazor con arquitectura N-Capas.</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://github.com/brayanhl17/Ecommerce_ASPNET" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Ecommerce.PNG" alt="Ecommerce" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Stack</p>
+                    <span class="dot"></span>
+                    <p class="blog-category">ASP.NET Core, SQL Server, Bootstrap</p>
+                  </div>
+                  <h3 class="h3 blog-item-title">Ecommerce</h3>
+                  <p class="blog-text">
+                   Ecommerce desarrollado con .NET 8 utilizando ASP.NET Core MVC, incluye carrrito de compras, paginación, búsqueda, dashboard y pasarela de pagos con paypal.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://github.com/brayanhl17/menu-dashboard" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="assets/images/Dashboard.PNG" alt="Dashboard" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Stack</p>
+                    <span class="dot"></span>
+                    <p class="blog-category">Angular, Tailwind CSS, .NET</p>
+                  </div>
+                  <h3 class="h3 blog-item-title">Dashboard</h3>
+                  <p class="blog-text">
+                   Dashboard moderno desarrollado con Angular 20 y Tailwind CSS que incuye Login con JWT mediante API creada con .NET 8 para ingresar o registrar usuarios con mayor seguridad.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://github.com/brayanhl17/BibliotecaMVP" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="assets/images/Biblioteca.png" alt="Biblioteca" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Stack</p>
+                    <span class="dot"></span>
+                    <p class="blog-category">.NET, Blazor, HTML, CSS</p>
+                  </div>
+                  <h3 class="h3 blog-item-title">Sistema de Biblioteca</h3>
+                  <p class="blog-text">
+                  Sistema para gestión de biblioteca escolar que permite administrar estudiantes, préstamos y libros. Utiliza Entity Framework, .NET 9 y Blazor Server.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://brayanhl17.github.io/Tiermaker" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="assets/images/Tiermaker.PNG" alt="Tiermaker" loading="lazy">
+                </figure>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Stack</p>
+                    <span class="dot"></span>
+                    <p class="blog-category">JavaScript, HTML, CSS</p>
+                  </div>
+                  <h3 class="h3 blog-item-title">Tiermaker</h3>
+                  <p class="blog-text">
+                  Web para crear tier lists utilizando drag & drop solo con Vanilla JavaScript. Permite añadir imágenes seleccionándolas o arrastrándolas, recargar y guardar la tier list en una imagen. 
+                  </p>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+      <article class="portfolio" data-page="habilidades">
+        <header>
+          <h2 class="h2 article-title">Habilidades</h2>
+        </header>
+
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>Todo</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Frontend</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Backend</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Herramientas</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Categoría</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>Todo</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Frontend</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Backend</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Herramientas</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="backend">
+                <figure class="project-img">
+                  <img src="./assets/images/net.png" alt="NET" loading="lazy">
+                </figure>
+                <h3 class="project-title">.NET</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="frontend">
+                <figure class="project-img">
+                  <img src="./assets/images/angular.svg" alt="Angular" loading="lazy">
+                </figure>
+                <h3 class="project-title">Angular</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="backend">
+                <figure class="project-img">
+                  <img src="./assets/images/csharp.svg" alt="Csharp" loading="lazy">
+                </figure>
+                <h3 class="project-title">C#</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="frontend">
+                <figure class="project-img">
+                  <img src="./assets/images/js.png" alt="JavaScript" loading="lazy">
+                </figure>
+                <h3 class="project-title">JavaScript</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="frontend">
+                <figure class="project-img">
+                  <img src="./assets/images/blazor.svg" alt="Blazor" loading="lazy">
+                </figure>
+                <h3 class="project-title">Blazor</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="backend">
+                <figure class="project-img">
+                  <img src="./assets/images/sql-server.png" alt="SQL Server" loading="lazy">
+                </figure>
+                <h3 class="project-title">SQL Server</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="frontend">
+                <figure class="project-img">
+                  <img src="./assets/images/html.svg" alt="HTML" loading="lazy">
+                </figure>
+                <h3 class="project-title">HTML 5</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="frontend">
+                <figure class="project-img">
+                  <img src="./assets/images/css.svg" alt="CSS" loading="lazy">
+                </figure>
+                <h3 class="project-title">CSS 3</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="backend">
+                <figure class="project-img">
+                  <img src="./assets/images/aspnet.svg" alt="ASP NET" loading="lazy">
+                </figure>
+                <h3 class="project-title">ASP.NET</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="frontend">
+                <figure class="project-img">
+                  <img src="./assets/images/react.png" alt="React" loading="lazy">
+                </figure>
+                <h3 class="project-title">React</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="herramientas">
+                <figure class="project-img">
+                  <img src="./assets/images/azure.svg" alt="Azure" loading="lazy">
+                </figure>
+                <h3 class="project-title">Azure</h3>
+            </li>
+            
+            <li class="project-item active" data-filter-item data-category="frontend">
+                <figure class="project-img">
+                  <img src="./assets/images/bootstrap-5.svg" alt="Bootstrap" loading="lazy">
+                </figure>
+                <h3 class="project-title">Bootstrap</h3>
+            </li>
+            
+             <li class="project-item active" data-filter-item data-category="backend">
+                <figure class="project-img">
+                  <img src="./assets/images/mysql.svg" alt="MySQL" loading="lazy">
+                </figure>
+                <h3 class="project-title">MySQL</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="herramientas">
+                <figure class="project-img">
+                  <img src="./assets/images/git.svg" alt="Git" loading="lazy">
+                </figure>
+                <h3 class="project-title">Git</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="herramientas">
+                <figure class="project-img">
+                  <img src="./assets/images/github.svg" alt="GitHub" loading="lazy">
+                </figure>
+                <h3 class="project-title">GitHub</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="herramientas">
+                <figure class="project-img">
+                  <img src="./assets/images/postman.svg" alt="Postman" loading="lazy">
+                </figure>
+                <h3 class="project-title">Postman</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="herramientas">
+                <figure class="project-img">
+                  <img src="./assets/images/vscode.png" alt="VsCode" loading="lazy">
+                </figure>
+                <h3 class="project-title">VS Code</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="herramientas">
+                <figure class="project-img">
+                  <img src="./assets/images/visual-studio.svg" alt="visual-studio" loading="lazy">
+                </figure>
+                <h3 class="project-title">Visual Studio</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="backend">
+                <figure class="project-img">
+                  <img src="./assets/images/postgresql.png" alt="PostgreSQL" loading="lazy">
+                </figure>
+                <h3 class="project-title">PostgreSQL</h3>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="herramientas">
+                <figure class="project-img">
+                  <img src="./assets/images/figma.svg" alt="Figma" loading="lazy">
+                </figure>
+                <h3 class="project-title">Figma</h3>
+            </li>
+
+          </ul>
+        </section>
+      </article>
+
+      <article class="contact" data-page="contacto">
+        <header>
+          <h2 class="h2 article-title">Contacto</h2>
+        </header>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Formulario de contacto</h3>
+
+          <form action="https://formspree.io/f/xovklbzk" method="POST" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nombre completo" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Dirección de Email" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Tu mensaje" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Enviar Mensaje</span>
+            </button>
+          </form>
+        </section>
+
+        <section class="mapbox" data-mapbox>
+        <figure>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30057.19183526891!2d-98.76051687431642!3d20.09669998712582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1a0c0e378d4f5%3A0x2e1f6e8a6f0e3b7c!2sPachuca%2C%20Hidalgo%2C%20Mexico!5e0!3m2!1ses!2smx!4v1728134567890!5m2!1ses!2smx"
+            width="400" height="300" loading="lazy"></iframe>
+        </figure>
+        </section>
+
+        
+      </article>
+    </div>
+  </main>
+
+  <script src="./assets/js/main.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
