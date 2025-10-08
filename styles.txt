@@ -1067,11 +1067,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   main {
     max-width: 1200px;
     margin-inline: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 25px;
   }
 
@@ -1083,37 +1081,23 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar {
     position: sticky;
-    top: 30px;
-    max-height: calc(100vh - 60px);
-    height: fit-content;
+    top: 60px;
+    max-height: max-content;
+    height: 100%;
     margin-bottom: 0;
-    padding: 30px;
-    overflow: visible;
+    padding-top: 60px;
     z-index: 1;
   }
 
-  .sidebar-info { 
-    flex-direction: column;
-    gap: 18px;
-  }
-  
-  .avatar-box img { 
-    width: 140px;
-  }
+  .sidebar-info { flex-direction: column; }
+  .avatar-box img { width: 150px; }
 
   .info-content .name {
     white-space: nowrap;
     text-align: center;
-    font-size: 22px;
-    margin-bottom: 3px;
   }
 
-  .info-content .title { 
-    margin: auto;
-    font-size: 12px;
-    padding: 5px 16px;
-  }
-  
+  .info-content .title { margin: auto; }
   .info_more-btn { display: none; }
 
   .sidebar-info_more {
@@ -1121,29 +1105,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     visibility: visible;
   }
 
-  .separator {
-    margin: 16px 0;
-  }
-
-  .contacts-list { 
-    grid-template-columns: 1fr;
-    gap: 14px;
-  }
-
-  .contact-item {
-    gap: 14px;
-  }
-
-  .icon-box {
-    width: 42px;
-    height: 42px;
-    font-size: 17px;
-  }
-
-  .contact-title {
-    font-size: 10px;
-    margin-bottom: 3px;
-  }
+  .contacts-list { grid-template-columns: 1fr; }
 
   .contact-info :is(.contact-link) {
     white-space: nowrap;
@@ -1152,25 +1114,15 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .contact-info :is(.contact-link, time, address) {
-    font-size: 14px;
+    --fs-7: 14px;
     font-weight: var(--fw-300);
   }
 
   .separator:last-of-type {
-    margin: 16px 0;
-    opacity: 1;
+    margin: 15px 0;
+    opacity: 0;
   }
 
-  .social-list { 
-    justify-content: center;
-    gap: 14px;
-    padding-left: 0;
-    padding-bottom: 0;
-  }
-
-  .social-item .social-link {
-    font-size: 26px;
-  }
-
+  .social-list { justify-content: center; }
   .timeline-text { max-width: 700px; }
 }
